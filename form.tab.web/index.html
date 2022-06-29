@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Formulários</title>
+
+</head>
+
+<body>
+    <div class="campo">
+        <h1 id="titulo"> FeedBack do cliente</h1>
+        <p id="subtitulo">Olá, responda a algumas perguntas sobre o que achou da nossa loja!</p>
+        <br>
+        <h2>Perguntas pessoais</h2>
+        <Br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="nome">Nome</label>
+                <input type="text" nome="Nome" id="Nome">
+                <div>
+                    <br>
+                    <div id="check">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" nome="Sobrenome" id="Sobrenome" required>
+                    </div>
+                    <br>
+                    <div id="check">
+                        <label for="email">Email</label>
+                        <input type="Email" nome="Email" id="Email" required>
+                        <div>
+                            <br>
+                            <div id="check">
+                                <label for="rg">RG</label>
+                                <input type="text" nome="RG" id="RG" required>
+                            </div>
+                            <br>
+                            <div id="check">
+                                <label for="data">Data do seu aniversário</label>
+                                <input type="date" nome="Dia" id="Dia" min="1" max="31" required>
+                                <div>
+                                    <br>
+                                    <div id="check">
+                                        <label for="numero">Numero de telefone</label>
+                                        <input type="tel" nome="telefone" id="telefone" placeholder="123-45-678">
+                                    </div>
+        </fieldset>
+    </form>
+    <br>
+    <div id="check">
+        <h2>Agora responda perguntas sobre nossa loja!</h2>
+    </div>
+    <form>
+        <div id="check">
+            <label for="reconhecimento">Você já conhecia nossa loja?</label>
+            <select id="Selecione">
+                <option selected disabled value="Selecione"></option>
+                <option>Sim!</option>
+                <option>Não</option>
+                <option>Já tinha ouvido falar</option>
+            </select>
+        </div>
+    </form>
+    <div id="check">
+        <br>
+        <label for="experiencia">conte-me o que achou da loja!</label><br>
+        <textarea rows="6" style="width: 26em" id="o que achou" nome="o que achou"></textarea>
+    </div>
+
+    <div id="check">
+        <br>
+        <label>Como conheceu a nossa loja?</label><br>
+        <textarea rows="6" style="width: 26em" id="o que achou" nome="o que achou"></textarea>
+    </div>
+    <div id="check">
+        <br>
+        <label for="recomendação">Você recomendaria a nossa loja?</label><br>
+        <textarea rows="6" style="width: 26em" id="o que achou" nome="o que achou"></textarea>
+    </div>
+    <br>
+    <button class="botao" type="submit">Concluido!</button>
+</body>
+//feito

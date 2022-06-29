@@ -1,0 +1,85 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 25%;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-image: url(440a9ac9-de4e-440b-bc94-82038279626c.jpg);
+    background-position: 20% 35%;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 15%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+.classe {
+    margin-bottom: 1cm;
+}
+
+.classe label {
+    margin-bottom: 0.2em;
+    color: rgb(44, 196, 102);
+    display: block;
+}
+
+fieldset.grupo.classe {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px rgb(13, 160, 50);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+#check {
+    display: contents;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #0c580c;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.botao:hover {
+    background: #41c541;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.2);
+
+}
